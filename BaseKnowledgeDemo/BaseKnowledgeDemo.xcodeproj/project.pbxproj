@@ -15,6 +15,10 @@
 		BFE31B0720F5E4160040D46E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE31B0620F5E4160040D46E /* main.m */; };
 		BFE31B1120F5E4170040D46E /* BaseKnowledgeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE31B1020F5E4170040D46E /* BaseKnowledgeDemoTests.m */; };
 		BFE31B1C20F5E4170040D46E /* BaseKnowledgeDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE31B1B20F5E4170040D46E /* BaseKnowledgeDemoUITests.m */; };
+		BFE31B2F20F5EC080040D46E /* DHXKVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE31B2E20F5EBFA0040D46E /* DHXKVCViewController.m */; };
+		BFE31B3420F5EC1D0040D46E /* DHXObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE31B3120F5EC1D0040D46E /* DHXObject.m */; };
+		BFE31B3520F5EC1D0040D46E /* DHXSubObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE31B3320F5EC1D0040D46E /* DHXSubObjc.m */; };
+		BFE31B3920F5FA390040D46E /* RunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE31B3820F5FA390040D46E /* RunLoopViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		BFE31B1720F5E4170040D46E /* BaseKnowledgeDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BaseKnowledgeDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE31B1B20F5E4170040D46E /* BaseKnowledgeDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseKnowledgeDemoUITests.m; sourceTree = "<group>"; };
 		BFE31B1D20F5E4170040D46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFE31B2D20F5EBFA0040D46E /* DHXKVCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHXKVCViewController.h; sourceTree = "<group>"; };
+		BFE31B2E20F5EBFA0040D46E /* DHXKVCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHXKVCViewController.m; sourceTree = "<group>"; };
+		BFE31B3020F5EC1D0040D46E /* DHXObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHXObject.h; sourceTree = "<group>"; };
+		BFE31B3120F5EC1D0040D46E /* DHXObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHXObject.m; sourceTree = "<group>"; };
+		BFE31B3220F5EC1D0040D46E /* DHXSubObjc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHXSubObjc.h; sourceTree = "<group>"; };
+		BFE31B3320F5EC1D0040D46E /* DHXSubObjc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHXSubObjc.m; sourceTree = "<group>"; };
+		BFE31B3720F5FA390040D46E /* RunLoopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunLoopViewController.h; sourceTree = "<group>"; };
+		BFE31B3820F5FA390040D46E /* RunLoopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunLoopViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,8 @@
 		BFE31AF620F5E4160040D46E /* BaseKnowledgeDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BFE31B3620F5FA250040D46E /* RunLoop */,
+				BFE31B2C20F5EBFA0040D46E /* KVC */,
 				BFE31AF720F5E4160040D46E /* AppDelegate.h */,
 				BFE31AF820F5E4160040D46E /* AppDelegate.m */,
 				BFE31AFA20F5E4160040D46E /* ViewController.h */,
@@ -130,6 +144,28 @@
 				BFE31B1D20F5E4170040D46E /* Info.plist */,
 			);
 			path = BaseKnowledgeDemoUITests;
+			sourceTree = "<group>";
+		};
+		BFE31B2C20F5EBFA0040D46E /* KVC */ = {
+			isa = PBXGroup;
+			children = (
+				BFE31B2D20F5EBFA0040D46E /* DHXKVCViewController.h */,
+				BFE31B2E20F5EBFA0040D46E /* DHXKVCViewController.m */,
+				BFE31B3020F5EC1D0040D46E /* DHXObject.h */,
+				BFE31B3120F5EC1D0040D46E /* DHXObject.m */,
+				BFE31B3220F5EC1D0040D46E /* DHXSubObjc.h */,
+				BFE31B3320F5EC1D0040D46E /* DHXSubObjc.m */,
+			);
+			path = KVC;
+			sourceTree = "<group>";
+		};
+		BFE31B3620F5FA250040D46E /* RunLoop */ = {
+			isa = PBXGroup;
+			children = (
+				BFE31B3720F5FA390040D46E /* RunLoopViewController.h */,
+				BFE31B3820F5FA390040D46E /* RunLoopViewController.m */,
+			);
+			path = RunLoop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFE31B3920F5FA390040D46E /* RunLoopViewController.m in Sources */,
+				BFE31B2F20F5EC080040D46E /* DHXKVCViewController.m in Sources */,
+				BFE31B3520F5EC1D0040D46E /* DHXSubObjc.m in Sources */,
 				BFE31AFC20F5E4160040D46E /* ViewController.m in Sources */,
 				BFE31B0720F5E4160040D46E /* main.m in Sources */,
+				BFE31B3420F5EC1D0040D46E /* DHXObject.m in Sources */,
 				BFE31AF920F5E4160040D46E /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
