@@ -53,6 +53,8 @@
     self.view.backgroundColor = [UIColor lightGrayColor];
     
     /**
+     https://blog.ibireme.com/2015/05/18/runloop/ 深入理解runloop
+     
      runloop
      保证程序不退出(死循环)
      负责监听事件:时钟 网络 触摸事件
@@ -62,11 +64,19 @@
     
     /**
      默认模式
-     NSDefaultRunLoopMode - 时钟 网络事件
-     UITrackingRunLoopMode UI处理模式(只能被UI事件触发)
+     NSDefaultRunLoopMode - 时钟 网络事件  App的默认 Mode，通常主线程是在这个 Mode 下运行的。
+     UITrackingRunLoopMode UI处理模式(只能被UI事件触发) 界面跟踪 Mode，用于 ScrollView 追踪触摸滑动，保证界面滑动时不受其他 Mode 影响。
      
      占位模式 （兼容两种模式）
      NSRunLoopCommonModes - 用户交互
+     
+     系统默认注册了5个Mode:
+     1. kCFRunLoopDefaultMode: App的默认 Mode，通常主线程是在这个 Mode 下运行的。
+     2. UITrackingRunLoopMode: 界面跟踪 Mode，用于 ScrollView 追踪触摸滑动，保证界面滑动时不受其他 Mode 影响。
+     3. UIInitializationRunLoopMode: 在刚启动 App 时第进入的第一个 Mode，启动完成后就不再使用。
+     4: GSEventReceiveRunLoopMode: 接受系统事件的内部 Mode，通常用不到。
+     5: kCFRunLoopCommonModes: 这是一个占位的 Mode，没有实际作用。
+     
      */
 
     /*
@@ -94,6 +104,8 @@
         NSLog(@"comming...");
     }];
     [thread start];
+    
+   
 }
 
 - (void)run:(NSTimer *)timer {
@@ -103,8 +115,6 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     _isFinished = YES;
-    
-    [self dismissViewControllerAnimated:YES completion:nil];
 }
 
 
@@ -128,6 +138,8 @@
     };
     //创建观察者
     defaultModeObserver = CFRunLoopObserverCreate(NULL, kCFRunLoopBeforeWaiting, YES, 0, &callBack, &observerContext);
+    
+//    CFRunLoopTimerRef
 }
 
 static void callBack(){

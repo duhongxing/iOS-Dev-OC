@@ -6,8 +6,8 @@
 //  Copyright © 2018年 MrDu. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface DHXKVCViewController : UIViewController
+@interface KVCViewController : BaseViewController
 
 @end

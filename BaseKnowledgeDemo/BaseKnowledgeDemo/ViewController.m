@@ -21,8 +21,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    _viewControllersArr = [NSArray arrayWithObjects:@"RunLoopViewController",@"DHXKVCViewController", nil];
+    _viewControllersArr = @[
+                            @"RunLoopViewController",
+                            @"KVCViewController",
+                            @"KVOViewController"
+                            ];
     [self setupTableView];
+    
 }
 
 #pragma mark - UI
@@ -61,7 +66,7 @@
     
     id viewController = [[VCClass alloc]init];
     
-    [self presentViewController:viewController animated:YES completion:nil];
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 

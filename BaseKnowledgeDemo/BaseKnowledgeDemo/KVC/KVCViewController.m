@@ -6,14 +6,14 @@
 //  Copyright © 2018年 MrDu. All rights reserved.
 //
 
-#import "DHXKVCViewController.h"
+#import "KVCViewController.h"
 
 
-@interface DHXKVCViewController ()
+@interface KVCViewController ()
 
 @end
 
-@implementation DHXKVCViewController
+@implementation KVCViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
