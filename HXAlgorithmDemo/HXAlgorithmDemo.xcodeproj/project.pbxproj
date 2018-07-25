@@ -15,6 +15,7 @@
 		BFBD1EC121072C80000159F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBD1EC021072C80000159F2 /* main.m */; };
 		BFBD1ECB21072C80000159F2 /* HXAlgorithmDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBD1ECA21072C80000159F2 /* HXAlgorithmDemoTests.m */; };
 		BFBD1ED621072C80000159F2 /* HXAlgorithmDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBD1ED521072C80000159F2 /* HXAlgorithmDemoUITests.m */; };
+		BFBD1EE521072D19000159F2 /* HXNormalAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBD1EE421072D19000159F2 /* HXNormalAlgorithm.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		BFBD1ED121072C80000159F2 /* HXAlgorithmDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXAlgorithmDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFBD1ED521072C80000159F2 /* HXAlgorithmDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXAlgorithmDemoUITests.m; sourceTree = "<group>"; };
 		BFBD1ED721072C80000159F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFBD1EE321072D19000159F2 /* HXNormalAlgorithm.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXNormalAlgorithm.h; sourceTree = "<group>"; };
+		BFBD1EE421072D19000159F2 /* HXNormalAlgorithm.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXNormalAlgorithm.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				BFBD1EB221072C80000159F2 /* AppDelegate.m */,
 				BFBD1EB421072C80000159F2 /* ViewController.h */,
 				BFBD1EB521072C80000159F2 /* ViewController.m */,
+				BFBD1EE321072D19000159F2 /* HXNormalAlgorithm.h */,
+				BFBD1EE421072D19000159F2 /* HXNormalAlgorithm.m */,
 				BFBD1EB721072C80000159F2 /* Main.storyboard */,
 				BFBD1EBA21072C80000159F2 /* Assets.xcassets */,
 				BFBD1EBC21072C80000159F2 /* LaunchScreen.storyboard */,
@@ -194,6 +199,7 @@
 		BFBD1EA621072C80000159F2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = HX;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = dhx;
 				TargetAttributes = {
@@ -267,6 +273,7 @@
 			files = (
 				BFBD1EB621072C80000159F2 /* ViewController.m in Sources */,
 				BFBD1EC121072C80000159F2 /* main.m in Sources */,
+				BFBD1EE521072D19000159F2 /* HXNormalAlgorithm.m in Sources */,
 				BFBD1EB321072C80000159F2 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -24,7 +24,8 @@
     _viewControllersArr = @[
                             @"RunLoopViewController",
                             @"KVCViewController",
-                            @"KVOViewController"
+                            @"KVOViewController",
+                            @"PropertyViewController"
                             ];
     [self setupTableView];
     

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFBD1F702108808F000159F2 /* PropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBD1F6F2108808F000159F2 /* PropertyViewController.m */; };
 		BFE31AF920F5E4160040D46E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE31AF820F5E4160040D46E /* AppDelegate.m */; };
 		BFE31AFC20F5E4160040D46E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE31AFB20F5E4160040D46E /* ViewController.m */; };
 		BFE31AFF20F5E4160040D46E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE31AFD20F5E4160040D46E /* Main.storyboard */; };
@@ -41,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BFBD1F6E2108808F000159F2 /* PropertyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyViewController.h; sourceTree = "<group>"; };
+		BFBD1F6F2108808F000159F2 /* PropertyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertyViewController.m; sourceTree = "<group>"; };
 		BFE31AF420F5E4160040D46E /* BaseKnowledgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseKnowledgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE31AF720F5E4160040D46E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFE31AF820F5E4160040D46E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BFBD1F6D21088070000159F2 /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				BFBD1F6E2108808F000159F2 /* PropertyViewController.h */,
+				BFBD1F6F2108808F000159F2 /* PropertyViewController.m */,
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
 		BFE31AEB20F5E4160040D46E = {
 			isa = PBXGroup;
 			children = (
@@ -123,6 +135,7 @@
 				BFE31B3A20F6DDF40040D46E /* KVO */,
 				BFE31B3620F5FA250040D46E /* RunLoop */,
 				BFE31B2C20F5EBFA0040D46E /* KVC */,
+				BFBD1F6D21088070000159F2 /* Property */,
 				BFE31AF720F5E4160040D46E /* AppDelegate.h */,
 				BFE31AF820F5E4160040D46E /* AppDelegate.m */,
 				BFE31AFA20F5E4160040D46E /* ViewController.h */,
@@ -336,6 +349,7 @@
 				BFE31B3D20F6DE010040D46E /* KVOViewController.m in Sources */,
 				BFE31B3420F5EC1D0040D46E /* DHXObject.m in Sources */,
 				BFE31AF920F5E4160040D46E /* AppDelegate.m in Sources */,
+				BFBD1F702108808F000159F2 /* PropertyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
