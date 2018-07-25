@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		BFBD1F702108808F000159F2 /* PropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBD1F6F2108808F000159F2 /* PropertyViewController.m */; };
+		BFBD1F752108AB7A000159F2 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBD1F742108AB7A000159F2 /* CategoryViewController.m */; };
+		BFBD1F7C2108C9D4000159F2 /* NSString+HXTestMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBD1F7B2108C9D4000159F2 /* NSString+HXTestMethod.m */; };
 		BFE31AF920F5E4160040D46E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE31AF820F5E4160040D46E /* AppDelegate.m */; };
 		BFE31AFC20F5E4160040D46E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE31AFB20F5E4160040D46E /* ViewController.m */; };
 		BFE31AFF20F5E4160040D46E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFE31AFD20F5E4160040D46E /* Main.storyboard */; };
@@ -44,6 +46,12 @@
 /* Begin PBXFileReference section */
 		BFBD1F6E2108808F000159F2 /* PropertyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyViewController.h; sourceTree = "<group>"; };
 		BFBD1F6F2108808F000159F2 /* PropertyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertyViewController.m; sourceTree = "<group>"; };
+		BFBD1F7121088339000159F2 /* HXProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXProperty.h; sourceTree = "<group>"; };
+		BFBD1F732108AB7A000159F2 /* CategoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryViewController.h; sourceTree = "<group>"; };
+		BFBD1F742108AB7A000159F2 /* CategoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CategoryViewController.m; sourceTree = "<group>"; };
+		BFBD1F762108AB88000159F2 /* CategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryHeader.h; sourceTree = "<group>"; };
+		BFBD1F7A2108C9D4000159F2 /* NSString+HXTestMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+HXTestMethod.h"; sourceTree = "<group>"; };
+		BFBD1F7B2108C9D4000159F2 /* NSString+HXTestMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+HXTestMethod.m"; sourceTree = "<group>"; };
 		BFE31AF420F5E4160040D46E /* BaseKnowledgeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaseKnowledgeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFE31AF720F5E4160040D46E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFE31AF820F5E4160040D46E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,8 +112,21 @@
 			children = (
 				BFBD1F6E2108808F000159F2 /* PropertyViewController.h */,
 				BFBD1F6F2108808F000159F2 /* PropertyViewController.m */,
+				BFBD1F7121088339000159F2 /* HXProperty.h */,
 			);
 			path = Property;
+			sourceTree = "<group>";
+		};
+		BFBD1F722108AB66000159F2 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				BFBD1F732108AB7A000159F2 /* CategoryViewController.h */,
+				BFBD1F742108AB7A000159F2 /* CategoryViewController.m */,
+				BFBD1F7A2108C9D4000159F2 /* NSString+HXTestMethod.h */,
+				BFBD1F7B2108C9D4000159F2 /* NSString+HXTestMethod.m */,
+				BFBD1F762108AB88000159F2 /* CategoryHeader.h */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		BFE31AEB20F5E4160040D46E = {
@@ -136,6 +157,7 @@
 				BFE31B3620F5FA250040D46E /* RunLoop */,
 				BFE31B2C20F5EBFA0040D46E /* KVC */,
 				BFBD1F6D21088070000159F2 /* Property */,
+				BFBD1F722108AB66000159F2 /* Category */,
 				BFE31AF720F5E4160040D46E /* AppDelegate.h */,
 				BFE31AF820F5E4160040D46E /* AppDelegate.m */,
 				BFE31AFA20F5E4160040D46E /* ViewController.h */,
@@ -343,12 +365,14 @@
 				BFE31B3920F5FA390040D46E /* RunLoopViewController.m in Sources */,
 				BFE31B4120F6DFAC0040D46E /* BaseViewController.m in Sources */,
 				BFE31B2F20F5EC080040D46E /* KVCViewController.m in Sources */,
+				BFBD1F752108AB7A000159F2 /* CategoryViewController.m in Sources */,
 				BFE31B3520F5EC1D0040D46E /* DHXSubObjc.m in Sources */,
 				BFE31AFC20F5E4160040D46E /* ViewController.m in Sources */,
 				BFE31B0720F5E4160040D46E /* main.m in Sources */,
 				BFE31B3D20F6DE010040D46E /* KVOViewController.m in Sources */,
 				BFE31B3420F5EC1D0040D46E /* DHXObject.m in Sources */,
 				BFE31AF920F5E4160040D46E /* AppDelegate.m in Sources */,
+				BFBD1F7C2108C9D4000159F2 /* NSString+HXTestMethod.m in Sources */,
 				BFBD1F702108808F000159F2 /* PropertyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,6 +539,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DH387CSQPW;
 				INFOPLIST_FILE = BaseKnowledgeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.organization.BaseKnowledgeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -529,6 +554,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = DH387CSQPW;
 				INFOPLIST_FILE = BaseKnowledgeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.organization.BaseKnowledgeDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

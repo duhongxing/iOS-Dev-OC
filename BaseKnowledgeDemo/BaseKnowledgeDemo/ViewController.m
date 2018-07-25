@@ -25,7 +25,8 @@
                             @"RunLoopViewController",
                             @"KVCViewController",
                             @"KVOViewController",
-                            @"PropertyViewController"
+                            @"PropertyViewController",
+                            @"CategoryViewController"
                             ];
     [self setupTableView];
     
