@@ -21,15 +21,25 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    [self setupDataArray];
+    [self setupTableView];
+    
+}
+
+#pragma mark - 初始化数据
+
+///初始化数据
+- (void)setupDataArray
+{
     _viewControllersArr = @[
                             @"RunLoopViewController",
                             @"KVCViewController",
                             @"KVOViewController",
                             @"PropertyViewController",
-                            @"CategoryViewController"
+                            @"CategoryViewController",
+                            @"ResponderViewController"
                             ];
-    [self setupTableView];
-    
 }
 
 #pragma mark - UI
@@ -44,7 +54,7 @@
     [self.view addSubview:_tableView];
 }
 
-#pragma mark - UITableViewDelegate or  UITableViewDataSource
+#pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return _viewControllersArr.count;
@@ -59,6 +69,8 @@
     cell.textLabel.text = _viewControllersArr[indexPath.row];
     return cell;
 }
+
+#pragma mark - UITableViewDelegate
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];

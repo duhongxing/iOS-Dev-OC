@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF7AFACE210B667C0011D4B6 /* ResponderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7AFACD210B667C0011D4B6 /* ResponderViewController.m */; };
+		BF7AFAD3210B71DD0011D4B6 /* HXResponderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7AFAD2210B71DD0011D4B6 /* HXResponderView.m */; };
 		BFBD1F702108808F000159F2 /* PropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBD1F6F2108808F000159F2 /* PropertyViewController.m */; };
 		BFBD1F752108AB7A000159F2 /* CategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBD1F742108AB7A000159F2 /* CategoryViewController.m */; };
 		BFBD1F7C2108C9D4000159F2 /* NSString+HXTestMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBD1F7B2108C9D4000159F2 /* NSString+HXTestMethod.m */; };
@@ -44,6 +46,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF7AFACC210B667C0011D4B6 /* ResponderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponderViewController.h; sourceTree = "<group>"; };
+		BF7AFACD210B667C0011D4B6 /* ResponderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponderViewController.m; sourceTree = "<group>"; };
+		BF7AFACF210B6C390011D4B6 /* RunloopIntroduction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunloopIntroduction.h; sourceTree = "<group>"; };
+		BF7AFAD0210B6FAA0011D4B6 /* ResponderIntroduction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponderIntroduction.h; sourceTree = "<group>"; };
+		BF7AFAD1210B71DD0011D4B6 /* HXResponderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXResponderView.h; sourceTree = "<group>"; };
+		BF7AFAD2210B71DD0011D4B6 /* HXResponderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HXResponderView.m; sourceTree = "<group>"; };
 		BFBD1F6E2108808F000159F2 /* PropertyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertyViewController.h; sourceTree = "<group>"; };
 		BFBD1F6F2108808F000159F2 /* PropertyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertyViewController.m; sourceTree = "<group>"; };
 		BFBD1F7121088339000159F2 /* HXProperty.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HXProperty.h; sourceTree = "<group>"; };
@@ -107,6 +115,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF7AFACB210B66660011D4B6 /* Responder */ = {
+			isa = PBXGroup;
+			children = (
+				BF7AFACC210B667C0011D4B6 /* ResponderViewController.h */,
+				BF7AFACD210B667C0011D4B6 /* ResponderViewController.m */,
+				BF7AFAD0210B6FAA0011D4B6 /* ResponderIntroduction.h */,
+				BF7AFAD1210B71DD0011D4B6 /* HXResponderView.h */,
+				BF7AFAD2210B71DD0011D4B6 /* HXResponderView.m */,
+			);
+			path = Responder;
+			sourceTree = "<group>";
+		};
 		BFBD1F6D21088070000159F2 /* Property */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,6 +178,7 @@
 				BFE31B2C20F5EBFA0040D46E /* KVC */,
 				BFBD1F6D21088070000159F2 /* Property */,
 				BFBD1F722108AB66000159F2 /* Category */,
+				BF7AFACB210B66660011D4B6 /* Responder */,
 				BFE31AF720F5E4160040D46E /* AppDelegate.h */,
 				BFE31AF820F5E4160040D46E /* AppDelegate.m */,
 				BFE31AFA20F5E4160040D46E /* ViewController.h */,
@@ -207,6 +228,7 @@
 			children = (
 				BFE31B3720F5FA390040D46E /* RunLoopViewController.h */,
 				BFE31B3820F5FA390040D46E /* RunLoopViewController.m */,
+				BF7AFACF210B6C390011D4B6 /* RunloopIntroduction.h */,
 			);
 			path = RunLoop;
 			sourceTree = "<group>";
@@ -369,8 +391,10 @@
 				BFE31B3520F5EC1D0040D46E /* DHXSubObjc.m in Sources */,
 				BFE31AFC20F5E4160040D46E /* ViewController.m in Sources */,
 				BFE31B0720F5E4160040D46E /* main.m in Sources */,
+				BF7AFAD3210B71DD0011D4B6 /* HXResponderView.m in Sources */,
 				BFE31B3D20F6DE010040D46E /* KVOViewController.m in Sources */,
 				BFE31B3420F5EC1D0040D46E /* DHXObject.m in Sources */,
+				BF7AFACE210B667C0011D4B6 /* ResponderViewController.m in Sources */,
 				BFE31AF920F5E4160040D46E /* AppDelegate.m in Sources */,
 				BFBD1F7C2108C9D4000159F2 /* NSString+HXTestMethod.m in Sources */,
 				BFBD1F702108808F000159F2 /* PropertyViewController.m in Sources */,

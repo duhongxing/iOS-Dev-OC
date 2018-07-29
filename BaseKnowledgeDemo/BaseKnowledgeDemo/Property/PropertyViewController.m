@@ -38,7 +38,7 @@
     //Wed Jul 25 17:51:18 2018
     NSLog(@"strong属性 %@",self.strongObjc);
     
-    self.weakObjc = self.strongObjc;
+    self.weakObjc   = self.strongObjc;
     self.assignObjc = self.strongObjc;
     
     //置空

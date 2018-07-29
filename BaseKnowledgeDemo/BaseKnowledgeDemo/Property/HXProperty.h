@@ -10,7 +10,7 @@
 #define HXProperty_h
 
 /**
- 现在我们将  weak 的思路整理一下：
+weak实现的思路：
  
  
  整个系统中存在很多个对象，这些对象都可能会被弱引用，那么我们需要一个容器来容纳这些被弱引用的对象，比如数组，在此将这个容器的数据结构标识为 objectContainerDataStructure；

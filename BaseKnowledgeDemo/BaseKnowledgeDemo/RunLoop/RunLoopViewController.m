@@ -103,8 +103,14 @@
         }
         NSLog(@"comming...");
     }];
-    [thread start];
+//    [thread start];
     
+    
+//    BOOL isRunning = NO;
+//    do {
+//        isRunning = [[NSRunLoop currentRunLoop]runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
+//        NSLog(@"running......");
+//    } while (isRunning);
    
 }
 
