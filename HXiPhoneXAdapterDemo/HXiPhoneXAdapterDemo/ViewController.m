@@ -8,7 +8,11 @@
 
 #import "ViewController.h"
 
+//https://juejin.im/post/5a4b04276fb9a045240630cc
+
 @interface ViewController ()
+
+@property (strong, nonatomic) UIScrollView *scroll;
 
 @end
 
@@ -17,6 +21,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.scroll.contentInset = UIEdgeInsetsMake(100, 0, -34, 10);
+    if (@available(iOS 11.0, *)) {
+        self.scroll.contentInsetAdjustmentBehavior = UIScrollViewContentInsetAdjustmentAutomatic;
+    }else {
+        self.automaticallyAdjustsScrollViewInsets = YES;
+    }
+    
+
 }
 
 

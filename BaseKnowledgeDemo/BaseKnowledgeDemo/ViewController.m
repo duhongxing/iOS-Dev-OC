@@ -25,6 +25,7 @@
     [self setupDataArray];
     [self setupTableView];
     
+    
 }
 
 #pragma mark - 初始化数据

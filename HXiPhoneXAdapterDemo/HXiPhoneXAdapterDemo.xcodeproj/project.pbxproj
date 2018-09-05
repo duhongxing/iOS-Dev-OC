@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E71C5A221258AF9006280BA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E71C5A121258AF9006280BA /* BaseViewController.m */; };
 		BFC5C893210D57E300E692BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC5C892210D57E300E692BF /* AppDelegate.m */; };
 		BFC5C896210D57E300E692BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFC5C895210D57E300E692BF /* ViewController.m */; };
 		BFC5C899210D57E300E692BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFC5C897210D57E300E692BF /* Main.storyboard */; };
@@ -35,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E71C59F2125884C006280BA /* iPhoneXAdapter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iPhoneXAdapter.h; sourceTree = "<group>"; };
+		0E71C5A021258AF9006280BA /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		0E71C5A121258AF9006280BA /* BaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
 		BFC5C88E210D57E300E692BF /* HXiPhoneXAdapterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HXiPhoneXAdapterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFC5C891210D57E300E692BF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BFC5C892210D57E300E692BF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -105,6 +109,9 @@
 				BFC5C892210D57E300E692BF /* AppDelegate.m */,
 				BFC5C894210D57E300E692BF /* ViewController.h */,
 				BFC5C895210D57E300E692BF /* ViewController.m */,
+				0E71C5A021258AF9006280BA /* BaseViewController.h */,
+				0E71C5A121258AF9006280BA /* BaseViewController.m */,
+				0E71C59F2125884C006280BA /* iPhoneXAdapter.h */,
 				BFC5C897210D57E300E692BF /* Main.storyboard */,
 				BFC5C89A210D57E300E692BF /* Assets.xcassets */,
 				BFC5C89C210D57E300E692BF /* LaunchScreen.storyboard */,
@@ -266,6 +273,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFC5C896210D57E300E692BF /* ViewController.m in Sources */,
+				0E71C5A221258AF9006280BA /* BaseViewController.m in Sources */,
 				BFC5C8A1210D57E300E692BF /* main.m in Sources */,
 				BFC5C893210D57E300E692BF /* AppDelegate.m in Sources */,
 			);

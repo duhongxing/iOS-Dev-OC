@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EC1563F213F835B00B40A73 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 0EC1563E213F835B00B40A73 /* img.png */; };
+		0EC15642213F84AD00B40A73 /* UIView+Swizzled.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC15641213F84AD00B40A73 /* UIView+Swizzled.m */; };
 		BF7AFACE210B667C0011D4B6 /* ResponderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7AFACD210B667C0011D4B6 /* ResponderViewController.m */; };
 		BF7AFAD3210B71DD0011D4B6 /* HXResponderView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7AFAD2210B71DD0011D4B6 /* HXResponderView.m */; };
 		BFBD1F702108808F000159F2 /* PropertyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFBD1F6F2108808F000159F2 /* PropertyViewController.m */; };
@@ -46,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EC1563E213F835B00B40A73 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img.png; sourceTree = "<group>"; };
+		0EC15640213F84AD00B40A73 /* UIView+Swizzled.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Swizzled.h"; sourceTree = "<group>"; };
+		0EC15641213F84AD00B40A73 /* UIView+Swizzled.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Swizzled.m"; sourceTree = "<group>"; };
 		BF7AFACC210B667C0011D4B6 /* ResponderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResponderViewController.h; sourceTree = "<group>"; };
 		BF7AFACD210B667C0011D4B6 /* ResponderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResponderViewController.m; sourceTree = "<group>"; };
 		BF7AFACF210B6C390011D4B6 /* RunloopIntroduction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunloopIntroduction.h; sourceTree = "<group>"; };
@@ -144,6 +149,8 @@
 				BFBD1F742108AB7A000159F2 /* CategoryViewController.m */,
 				BFBD1F7A2108C9D4000159F2 /* NSString+HXTestMethod.h */,
 				BFBD1F7B2108C9D4000159F2 /* NSString+HXTestMethod.m */,
+				0EC15640213F84AD00B40A73 /* UIView+Swizzled.h */,
+				0EC15641213F84AD00B40A73 /* UIView+Swizzled.m */,
 				BFBD1F762108AB88000159F2 /* CategoryHeader.h */,
 			);
 			path = Category;
@@ -183,6 +190,7 @@
 				BFE31AF820F5E4160040D46E /* AppDelegate.m */,
 				BFE31AFA20F5E4160040D46E /* ViewController.h */,
 				BFE31AFB20F5E4160040D46E /* ViewController.m */,
+				0EC1563E213F835B00B40A73 /* img.png */,
 				BFE31AFD20F5E4160040D46E /* Main.storyboard */,
 				BFE31B0020F5E4160040D46E /* Assets.xcassets */,
 				BFE31B0220F5E4160040D46E /* LaunchScreen.storyboard */,
@@ -359,6 +367,7 @@
 			files = (
 				BFE31B0420F5E4160040D46E /* LaunchScreen.storyboard in Resources */,
 				BFE31B0120F5E4160040D46E /* Assets.xcassets in Resources */,
+				0EC1563F213F835B00B40A73 /* img.png in Resources */,
 				BFE31AFF20F5E4160040D46E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -384,6 +393,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0EC15642213F84AD00B40A73 /* UIView+Swizzled.m in Sources */,
 				BFE31B3920F5FA390040D46E /* RunLoopViewController.m in Sources */,
 				BFE31B4120F6DFAC0040D46E /* BaseViewController.m in Sources */,
 				BFE31B2F20F5EC080040D46E /* KVCViewController.m in Sources */,
