@@ -11,8 +11,6 @@
 
 @interface BaseViewController ()
 
-
-
 @end
 
 @implementation BaseViewController
