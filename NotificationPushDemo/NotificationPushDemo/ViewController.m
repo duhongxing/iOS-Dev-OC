@@ -10,6 +10,8 @@
 #import <UserNotifications/UserNotifications.h>
 #import <CoreLocation/CoreLocation.h>
 
+#define kIdentifier_Notification  @"localNotification"
+
 @interface ViewController ()
 
 @end
@@ -57,7 +59,7 @@
     UNTimeIntervalNotificationTrigger *timeTrigger = [UNTimeIntervalNotificationTrigger triggerWithTimeInterval:5.0f repeats:NO];
     
     // 创建通知标示
-    NSString *requestIdentifier = @"localNotification";
+    NSString *requestIdentifier = kIdentifier_Notification;
     
     // 创建通知请求 UNNotificationRequest 将触发条件和通知内容添加到请求中
     UNNotificationRequest *request = [UNNotificationRequest requestWithIdentifier:requestIdentifier content:content trigger:timeTrigger];
@@ -80,6 +82,17 @@
 
 /// 进阶通知
 - (void)advanceNotification {
+    
+    UNNotificationAction *lookAction = [UNNotificationAction actionWithIdentifier:kIdentifier_Notification title:@"接受邀请" options:UNNotificationActionOptionAuthenticationRequired];
+    
+     UNNotificationAction *joinAction = [UNNotificationAction actionWithIdentifier:kIdentifier_Notification title:@"查看邀请" options:UNNotificationActionOptionForeground];
+    
+     UNNotificationAction *cancelAction = [UNNotificationAction actionWithIdentifier:kIdentifier_Notification title:@"取消" options:UNNotificationActionOptionDestructive];
+    
+    UNTextInputNotificationAction *inputAction = [UNTextInputNotificationAction actionWithIdentifier:kIdentifier_Notification title:@"输入" options:UNNotificationActionOptionDestructive textInputButtonTitle:@"发送" textInputPlaceholder:@"tell me loudly"];
+    
+    UNNotificationCategory *category = [UNNotificationCategory categoryWithIdentifier:kIdentifier_Notification actions:@[] intentIdentifiers:@[] options:UNNotificationCategoryOptionCustomDismissAction];
+    
     
 }
 
