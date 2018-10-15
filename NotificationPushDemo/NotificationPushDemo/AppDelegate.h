@@ -2,7 +2,7 @@
 //  AppDelegate.h
 //  NotificationPushDemo
 //
-//  Created by 杜红星 on 2018/9/13.
+//  Created by 杜 on 2018/9/13.
 //  Copyright © 2018年 daojia. All rights reserved.
 //
 
