@@ -11,6 +11,7 @@
 * KVC使用及实现原理
 * KVO使用及实现原理
 * category 和 extension
+* load 和 initialize ()
 * [事件的传递及响应](https://www.jianshu.com/p/c294d1bd963d)
 * 线程（thread）间的通信
 * [线程锁（互斥锁和自旋锁)](https://blog.csdn.net/qq_41431406/article/details/109319433)
@@ -79,6 +80,7 @@
 * 电量优化
 * 内存优化
     - [图片压缩](https://www.jianshu.com/p/99c3e6a6c03)
+* [视图渲染与性能优化](https://www.jianshu.com/p/748f9abafff8)
  
 
 
