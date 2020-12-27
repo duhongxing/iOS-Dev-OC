@@ -1,6 +1,6 @@
 ### iOS知识回顾梳理
 #### 基础知识
-* 内存管理
+* 内存管理  [参考资料](https://juejin.cn/post/6844903473272586254#heading-20)
     - 关键字 nonatomic atomic readwrite readonly retain strong assign weak copy autorelease
     - MRC
     - ARC
@@ -12,6 +12,7 @@
 * KVO使用及实现原理
 * category 和 extension
 * 线程（thread）间的通信
+* [线程锁（互斥锁和自旋锁)](https://blog.csdn.net/qq_41431406/article/details/109319433)
 #### 常用第三方库
 * [SDWebImage](https://github.com/SDWebImage/SDWebImage)
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking)
