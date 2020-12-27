@@ -13,6 +13,12 @@
 * category 和 extension
 * 线程（thread）间的通信
 * [线程锁（互斥锁和自旋锁)](https://blog.csdn.net/qq_41431406/article/details/109319433)
+#### 网络
+* [HTTP 协议](https://www.jianshu.com/p/6e9e4156ece3)
+* [TCP/IP 协议](https://www.jianshu.com/p/9f3e879a4c9c)
+* [浅析HTTPS中间人攻击与证书校验](https://www.jianshu.com/p/d4822bc289cf?utm_campaign=haruki&utm_content=note&utm_medium=reader_share&utm_source=weixin&from=groupmessage&isappinstalled=0)
+* [SSL三种类型证书有什么区别](https://freessl.wosign.com/2018110901.html)
+* [三次握手 四次挥手](https://zhuanlan.zhihu.com/p/86426969)
 #### 常用第三方库
 * [SDWebImage](https://github.com/SDWebImage/SDWebImage)
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking)
@@ -29,7 +35,8 @@
     - instance class metaClass 
     - subClass superClass rootClass
     - isa
-* runloop 
+* [runloop](https://www.jianshu.com/p/8595a191063e)
+* [weak](https://mp.weixin.qq.com/s/Y1jd1Q58YviRypMdfsbT3g)
 
 #### 设计模式和设计原则
 * 设计原则
