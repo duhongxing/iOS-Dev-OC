@@ -33,6 +33,22 @@
 * [IQKeyboardManager](https://github.com/hackiftekhar/IQKeyboardManager)
 
 #### 底层知识
+* [OC对象](https://www.jianshu.com/p/aa7ccadeca88)
+* [Class](https://www.jianshu.com/p/74db5638f34f)
+* [KVO](https://www.jianshu.com/p/5477cf91bb32)
+* [RunLoop](https://www.jianshu.com/p/de752066d0ad)
+* [Category](https://www.jianshu.com/p/fa66c8be42a2)
+* [关联对象](https://www.jianshu.com/p/0f9b990e8b0a)
+* [block]
+  - [1](https://www.jianshu.com/p/c99f4974ddb5)
+  - [2](https://www.jianshu.com/p/8865ff43f30e)
+* [runtime]
+    - [1](https://www.jianshu.com/p/d949b51d5de7)
+    - [2](https://www.jianshu.com/p/27ee04f3ed7b)
+    - [3](https://www.jianshu.com/p/4546f22b2e96)
+    - [4](https://www.jianshu.com/p/57e3f555756e)
+  
+  
 * [消息的发送及转发](http://yulingtianxia.com/blog/2016/06/15/Objective-C-Message-Sending-and-Forwarding/)
 * [runtime](https://www.jianshu.com/p/6ebda3cd8052)
     - instance class metaClass 
