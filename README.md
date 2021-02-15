@@ -8,12 +8,12 @@
     - 通知（notification）
     - 代理（delegate）
     - block
-* KVC使用及实现原理
-* KVO使用及实现原理
-* [category 和 extension](https://tech.meituan.com/2015/03/03/diveintocategory.html)
-* [load 和 initialize] ()
+* KVC
+* [KVO](https://www.jianshu.com/p/6b7dfc66d4d3)
+* [Category 和 Extension](https://tech.meituan.com/2015/03/03/diveintocategory.html)
+* [Load 和 Initialize] ()
 * [事件的传递及响应](https://www.jianshu.com/p/c294d1bd963d)
-* 线程（thread）间的通信
+* 线程（Thread）间的通信
 * [线程锁（互斥锁和自旋锁)](https://blog.csdn.net/qq_41431406/article/details/109319433)
 #### 网络
 * [HTTP 协议](https://www.jianshu.com/p/6e9e4156ece3)
@@ -21,6 +21,12 @@
 * [浅析HTTPS中间人攻击与证书校验](https://www.jianshu.com/p/d4822bc289cf?utm_campaign=haruki&utm_content=note&utm_medium=reader_share&utm_source=weixin&from=groupmessage&isappinstalled=0)
 * [SSL三种类型证书有什么区别](https://freessl.wosign.com/2018110901.html)
 * [三次握手 四次挥手](https://zhuanlan.zhihu.com/p/86426969)
+
+* [HTTP协议]
+    - [1](https://www.jianshu.com/p/6e9e4156ece3)
+    - [2](https://www.jianshu.com/p/9f3e879a4c9c)
+* [HTTPS](http://oncenote.com/2014/10/21/Security-1-HTTPS/)
+* [iOS中长连接的那些事](https://www.jianshu.com/p/85535a17372b)
 #### 常用第三方库
 * [SDWebImage](https://github.com/SDWebImage/SDWebImage)
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking)
@@ -47,6 +53,7 @@
     - [2](https://www.jianshu.com/p/27ee04f3ed7b)
     - [3](https://www.jianshu.com/p/4546f22b2e96)
     - [4](https://www.jianshu.com/p/57e3f555756e)
+* [如何正确使用 Runtime ](https://halfrost.com/how_to_use_runtime/)
   
   
 * [消息的发送及转发](http://yulingtianxia.com/blog/2016/06/15/Objective-C-Message-Sending-and-Forwarding/)
@@ -98,6 +105,7 @@
 * 内存优化
     - [图片压缩](https://www.jianshu.com/p/99c3e6a6c03)
 * [视图渲染与性能优化](https://www.jianshu.com/p/748f9abafff8)
+* [iOS 图片压缩限制大小最优解](https://www.jianshu.com/p/99c3e6a6c033)
  
 
 
