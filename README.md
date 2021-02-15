@@ -4,6 +4,7 @@
     - 关键字 nonatomic atomic readwrite readonly retain strong assign weak copy autorelease
     - MRC
     - ARC
+    - [循环引用的处理](https://halfrost.com/ios_block_retain_circle/)
 * 类与类之间的消息传递
     - 通知（notification）
     - 代理（delegate）
