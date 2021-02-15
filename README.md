@@ -64,7 +64,7 @@
     - isa
 * [runloop](https://www.jianshu.com/p/8595a191063e)
 * [weak](https://mp.weixin.qq.com/s/Y1jd1Q58YviRypMdfsbT3g)
-    - > 1、调用objc_release
+        1、调用objc_release
         2、因为对象的引用计数为0，所以执行dealloc
         3、在dealloc中，调用了_objc_rootDealloc函数
         4、在_objc_rootDealloc中，调用了object_dispose函数
